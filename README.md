@@ -55,10 +55,10 @@ wget http://ftp.nl.debian.org/debian/dists/buster/main/installer-amd64/current/i
 
 ## Creating a Debian virtual machine
 
-Create a blank disk image that will be used to install Debian in to. This will create a 100GB disk.
+Create a blank disk image that will be used to install Debian in to. This will create a ~130GB disk.
 
 ```
-SIZE=100g
+SIZE=4g
 dd if=/dev/zero of=hdd.img bs=$SIZE count=32
 ```
 
